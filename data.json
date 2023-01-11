@@ -1,0 +1,52 @@
+{
+  "audio": [
+    {
+      "audioName": "Judas",
+      "audioArtist": "Fozzy",
+      "audioCover": "./img/images.jpg",
+      "audioFile": "./audio/Fozzy - Judas.mp3"
+    },
+    {
+      "audioName": "One Crazed Anarchist",
+      "audioArtist": "Fozzy",
+      "audioCover": "./img/images.jpg",
+      "audioFile": "./audio/Fozzy - One Crazed Anarchist.mp3"
+    },
+    {
+      "audioName": "Sandpaper",
+      "audioArtist": "Fozzy",
+      "audioCover": "./img/images.jpg",
+      "audioFile": "./audio/Fozzy - Sandpaper.mp3"
+    },
+    {
+      "audioName": "Sane",
+      "audioArtist": "Fozzy",
+      "audioCover": "./img/images.jpg",
+      "audioFile": "./audio/Fozzy - Sane.mp3"
+    },
+    {
+      "audioName": "Nowhere To Run",
+      "audioArtist": "Fozzy",
+      "audioCover": "./img/images.jpg",
+      "audioFile": "./audio/Fozzy - Nowhere To Run.mp3"
+    },
+    {
+      "audioName": "Painless",
+      "audioArtist": "Fozzy",
+      "audioCover": "./img/images.jpg",
+      "audioFile": "./audio/Fozzy - Painless.mp3"
+    },
+    {
+      "audioName": "Mi Gente",
+      "audioArtist": "J.Balvin | Willy William",
+      "audioCover": "./img/index.jpg",
+      "audioFile": "./audio/Mi Gente.mp3"
+    },
+    {
+      "audioName": "Radioactive",
+      "audioArtist": "Imagine Dragons",
+      "audioCover": "./img/Radioactive.jpg",
+      "audioFile": "./audio/Imagine Dragons - Radioactive.mp3"
+    }
+  ]
+}

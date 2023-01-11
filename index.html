@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muizzy</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="music-player">
+    <div class="music-player__cover">
+      <img src="./img/images.jpg" alt="Cover for Borderline">
+      <div class="audio-playlist">
+        <button class="audio-playlist__button">
+          <i class="fas fa-music"></i>
+        </button>
+        <ul class="audio-playlist__list">
+          <li>
+            <div>
+              <span class="track-animation">
+                <i></i>
+                <i></i>
+                <i></i>
+              </span>
+              <h4>Fozzy - Judas</h4>
+            </div>
+            <span class="track-duration">03:45</span>
+          </li>
+          <li>
+            <h4>Fozzy - One Crazed Anarchist</h4>
+            <span>03:59</span>
+          </li>
+          <li>
+            <h4>Fozzy - Sandpaper</h4>
+            <span>03:32</span>
+          </li>
+          <li>
+            <h4>Fozzy - Sane</h4>
+            <span>04:12</span>
+          </li>
+          <li>
+            <h4>Fozzy - Nowhere To Run</h4>
+            <span>03:41</span>
+          </li>
+          <li>
+            <h4>Fozzy - Painless</h4>
+            <span>03:58</span>
+          </li>
+          <li>
+            <h4>Mi Gente</h4>
+            <span>03:07</span>
+          </li>
+          <li>
+            <h4>Imagine Dragons - Radioactive</h4>
+            <span>03:07</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <audio class="music-player__audio" src="./audio/Fozzy - Judas.mp3"></audio>
+    <div class="music-player__info">
+      <div class="audio-info">
+        <h4 class="audio-info__name">Judas</h4>
+        <span class="audio-info__artist">Fozzy</span>
+      </div>
+      <div class="audio-controls">
+        <button id="backward">
+          <i class="fas fa-step-backward"></i>
+        </button>
+        <button id="play">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="forward">
+          <i class="fas fa-step-forward"></i>
+        </button>
+      </div>
+      <div class="audio-progress">
+        <div class="audio-progress__track">
+          <span style="width: 0;"></span>
+        </div>
+        <span class="audio-progress__duration">00:00</span>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
